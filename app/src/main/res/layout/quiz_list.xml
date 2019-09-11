@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/question"
+
+        android:id="@+id/quiz_question"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+
+        android:layout_marginEnd="10dp"
+
+        android:layout_marginStart="10dp"
+
+        android:layout_marginTop="20dp"
+
+        android:textSize="20sp"
+
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/quiz_question"
+
+        android:layout_alignLeft="@+id/quiz_question"
+
+        android:layout_alignStart="@+id/quiz_question"
+
+        android:layout_marginTop="40dp"
+
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+
+            android:layout_height="wrap_content"
+
+            android:layout_width="wrap_content"
+
+            android:id="@+id/radio0"
+
+            android:textSize="15sp"
+
+            android:textColor="@color/colorPrimaryDark"
+
+            android:text="@string/app_name"
+
+            android:layout_marginBottom="10dp"
+
+            android:paddingLeft="20dp"
+            />
+
+        <RadioButton
+
+            android:layout_height="wrap_content"
+
+            android:layout_width="wrap_content"
+
+            android:id="@+id/radio1"
+
+            android:textSize="15sp"
+
+            android:textColor="@color/colorPrimaryDark"
+
+            android:text="@string/app_name"
+
+            android:layout_marginBottom="10dp"
+
+            android:paddingLeft="20dp"
+/>
+
+        <RadioButton
+
+            android:layout_height="wrap_content"
+
+            android:layout_width="wrap_content"
+
+            android:id="@+id/radio2"
+
+            android:textSize="15sp"
+
+            android:textColor="@color/colorPrimaryDark"
+
+            android:text="@string/app_name"
+
+            android:layout_marginBottom="10dp"
+
+            android:paddingLeft="20dp"
+
+            />
+
+        <RadioButton
+
+            android:layout_height="wrap_content"
+
+            android:layout_width="wrap_content"
+
+            android:id="@+id/radio3"
+
+            android:textSize="15sp"
+
+            android:textColor="@color/colorPrimaryDark"
+
+            android:text="@string/app_name"
+
+            android:paddingLeft="20dp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/btn_display" />
+
+    <Button
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="160dp"
+
+        android:gravity="center"
+
+        android:id="@+id/nextquiz"
+
+        android:textColor="@color/white"
+
+        android:text="@string/next_questions"
+
+
+        android:layout_marginRight="10dp"
+
+        android:padding="5dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="190dp"
+
+        android:layout_alignBaseline="@+id/previousquiz"/>
+
+    <Button
+
+        android:id="@+id/previousquiz"
+
+        android:layout_width="160dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/radioGroup"
+
+        android:layout_alignStart="@+id/radioGroup"
+
+        android:layout_below="@+id/radioGroup"
+
+
+        android:layout_marginLeft="9dp"
+
+        android:layout_marginStart="9dp"
+
+        android:layout_marginTop="182dp"
+
+        android:gravity="center"
+
+        android:padding="5dp"
+        android:text="@string/exit"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/scores"
+        android:layout_width="140dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="100dp"
+
+        android:text="@string/Score"
+
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/dark"
+        android:paddingLeft="20dp"
+
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Word Bank</string>
+    <string name="quiz">Quiz</string>
+    <string name="Insert">Insert</string>
+    <string name="Backup">Back Up</string>
+    <string name="restore">Restore</string>
+    <string name="File">File</string>
+    <string name="Ok">ok</string>
+    <string name="Board">Board</string>
+    <string name="search_title">Search</string>
+    <string name="question">Question</string>
+    <string name="next_questions">Next Question</string>
+    <string name="previous_questions">Previous Question</string>
+    <string name="btn_display">Display</string>
+    <string name="Score">Score</string>
+    <string name="exit">Exit</string>
+</resources>
